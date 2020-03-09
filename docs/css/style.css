@@ -5,7 +5,7 @@
 
 body{
 
-    background-color:lightblue ;
+    
     font-family: 'Courier New', Courier, monospace
 
    header {
@@ -16,7 +16,7 @@ body{
 h1 {
     text-align: center;
     padding: 10px;
-    border: 2px solid black;
+    
 }
 
 h2 {
@@ -29,37 +29,68 @@ h3 {
     margin: 5px;
 }
 
+
+
+
+ul {
+margin: 0 auto;
+
+
+}
+
+ol{
+    margin-left: 20px;
+}
+
+
+li{
+    text-align: center; 
+    margin: 10px;
+
+    p {
+padding: 2px;
+margin: 10px 2px;
+    }
+ }
+ 
+ a {
+     
+     padding: 4px;
+     margin: 3px;
+ }
+ 
+ a:hover {
+     color: brown;
+     background-color: black;
+ }
+
+ #wrapper {
+     width: 80vw;
+     height: 98vh;
+     margin: 1vh auto;
+     border: 2px solid black;
+ }
+
 #top-menu {
 
-    background-color: lightslategray;
+    
     padding: 10px 0;
+    height: max-content;
+    
+
 }
 
     .main-menu-item {
         list-style: none;
     }
 
-li{
-   text-align: center; 
-   margin: 10px;
-}
-
-a {
-    color: darksalmon;
-    padding: 4px;
-    margin: 3px;
-}
-
-a:hover {
-    color: brown;
-    background-color: black;
-}
    .main-menu-item > a {
         display: inline-block;
         width: 250px;
         padding: ;
         text-decoration: none;
-        background-color: peachpuff;
+        border: 2px dotted black;
+        
         color: black;
    }
 
@@ -74,11 +105,10 @@ a:hover {
     color: black;
 }
 
-.site-title: hover {
+.site-title:hover {
     background-color: transparent;
-    color: currentcolor
+    color: currentColor;
 }
-
 
 
 .page-title {
@@ -90,3 +120,13 @@ a:hover {
     text-align: left;
 }
     
+.center {
+    text-align: center;
+}
+
+.magenta {
+color: brown;
+background-color: burlywood;
+font-weight: 400;
+font-size: 1em;
+}
